@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".view.ResultGlycemieActivity"
+    android:background="@color/pastel">
+
+    <ImageView
+        android:id="@+id/backButton"
+        android:layout_width="40sp"
+        android:layout_height="40dp"
+        android:background="@drawable/back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="52dp" />
+
+    <!-- tvNotes -->
+
+    <TextView
+        android:id="@+id/GlycemieTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="56dp"
+        android:text="Calculation Blood sugar"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="197dp"
+        android:layout_height="147dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="144dp"
+        android:src="@drawable/bloodicon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/bloodStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="360dp"
+        android:text=""
+        android:textColor="@color/green"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notes\n"
+        android:justificationMode="inter_word"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:padding="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="472dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/icon_background" />
+
+    <!-- backHome -->
+    <LinearLayout
+        android:id="@+id/backHome"
+        android:layout_width="211dp"
+        android:layout_height="49dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="696dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:backgroundTint="@color/transparent"
+            android:text="Back to"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_vertical"
+            android:paddingEnd="8dp"
+            android:src="@drawable/home" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

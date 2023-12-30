@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".view.ExerciceActivity"
+    android:background="@color/pastel">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="124dp"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="20dp">
+
+        <ImageView
+            android:id="@+id/backButton"
+            android:layout_width="85dp"
+            android:layout_height="80dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:padding="16dp"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:layout_width="192dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:text="Exercice Fitness"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="104dp"
+            android:layout_height="99dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/exercice" />
+    </LinearLayout>
+
+
+
+    <!-- backHome -->
+
+
+    <LinearLayout
+        android:id="@+id/exercie1"
+        android:layout_width="333dp"
+        android:layout_height="91dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="172dp"
+        android:background="@drawable/icon_background"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="246dp"
+            android:layout_height="match_parent"
+            android:text="Deadlift"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_vertical"
+            android:paddingEnd="8dp"
+            android:src="@drawable/deadlift" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/exercie2"
+        android:layout_width="333dp"
+        android:layout_height="91dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/icon_background"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="241dp"
+            android:layout_height="match_parent"
+            android:text="Run"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_vertical"
+            android:paddingEnd="8dp"
+            android:src="@drawable/run" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/exercie3"
+        android:layout_width="333dp"
+        android:layout_height="91dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="388dp"
+        android:background="@drawable/icon_background"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="239dp"
+            android:layout_height="match_parent"
+            android:text="Pullups"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_vertical"
+            android:paddingEnd="8dp"
+            android:src="@drawable/pullups" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/exercie4"
+        android:layout_width="333dp"
+        android:layout_height="91dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="508dp"
+        android:background="@drawable/icon_background"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="237dp"
+            android:layout_height="match_parent"
+            android:text="Pushups"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_vertical"
+            android:paddingEnd="8dp"
+            android:src="@drawable/pushups" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/exercie5"
+        android:layout_width="333dp"
+        android:layout_height="91dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="620dp"
+        android:background="@drawable/icon_background"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="237dp"
+            android:layout_height="match_parent"
+            android:text="Bench press"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textSize="25sp"/>
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_vertical"
+            android:paddingEnd="8dp"
+            android:src="@drawable/bench_press" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
