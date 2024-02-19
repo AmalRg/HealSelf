@@ -4,6 +4,8 @@ Welcome To HealSelf
   Your partner for total well-being 💓
     Track, measure and improve your health, easily 👨‍⚕
 
+    
+
 Main features
 
   ⏱ BMI (Body Mass Index) calculation: Accurate calculation of BMI to assess body composition
