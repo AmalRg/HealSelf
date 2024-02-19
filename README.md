@@ -16,4 +16,4 @@ Track, measure and improve your health, easily 👨‍⚕
   
   ❤️📉 Heart Rate: Measure and monitor heart rate to assess cardiovascular condition
 
-  The other features will be implemented at the latest 🔜
+  The other features will be implemented soon 🔜
