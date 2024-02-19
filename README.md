@@ -11,6 +11,8 @@ Track, measure and improve your health, easily 👨‍⚕
 
 **Technologies used:**  xml, java
 
+***************************
+
 **Main features**
 
   ⏱ BMI (Body Mass Index) calculation: Accurate calculation of BMI to assess body composition
