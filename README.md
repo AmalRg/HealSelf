@@ -8,8 +8,7 @@ Your partner for total well-being 💓
 Track, measure and improve your health, easily 👨‍⚕
 
 
-**Technologies used: ** 
-xml, java
+**Technologies used:**  xml, java
 
 **Main features**
 
