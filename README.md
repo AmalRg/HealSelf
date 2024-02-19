@@ -1,6 +1,7 @@
 # HealSelf Application ❤️‍🩹
 
-Welcome To HealSelf ![UI Home](https://github.com/AmalRg/HealSelf/assets/137056001/8c8af021-3864-41b9-9367-0373c8ad89fa)
+
+Welcome To HealSelf 🤚💓✋
 
 Your partner for total well-being 💓
 
