@@ -11,7 +11,7 @@ Track, measure and improve your health, easily 👨‍⚕
 
 **Technologies used:**  xml, java
 
-***************************
+
 
 **Main features**
 
