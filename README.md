@@ -13,6 +13,10 @@ Track, measure and improve your health, easily 👨‍⚕
 
 
 
+https://github.com/AmalRg/HealSelf/assets/137056001/274a2999-c25b-4f38-a293-e2e672ea3602
+
+
+
 **Main features**
 
   ⏱ BMI (Body Mass Index) calculation: Accurate calculation of BMI to assess body composition
