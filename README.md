@@ -9,13 +9,13 @@ Track, measure and improve your health, easily 👨‍⚕
 
 ****************************
 
+
+https://github.com/AmalRg/HealSelf/assets/137056001/ea849735-31ec-4f0d-8503-83208b197649
+
+
+****************************
+
 **Technologies used:**  xml, java
-
-
-
-https://github.com/AmalRg/HealSelf/assets/137056001/274a2999-c25b-4f38-a293-e2e672ea3602
-
-
 
 **Main features**
 
