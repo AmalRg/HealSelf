@@ -10,7 +10,7 @@ Track, measure and improve your health, easily 👨‍⚕
 ****************************
 
 
-https://github.com/AmalRg/HealSelf/assets/137056001/ea849735-31ec-4f0d-8503-83208b197649
+https://github.com/AmalRg/HealSelf/assets/137056001/b9b61a6d-2d40-4513-8dce-a0ccda575ec3
 
 
 ****************************
